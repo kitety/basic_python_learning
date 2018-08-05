@@ -39,6 +39,22 @@ li = ['alex', [1, 2, 3, 4, 5], 'beijing', '女神', 'taipei']
 
 # 改动
 li = ['alex', [1, 2, 3, 4, 5], 'beijing', '女神', 'taipei']
-li[0] = [1, 2, 3]
-li[0:2] = [1, 2]
+# li[0] = [1, 2, 3]
+# li[0:2] = [1, 2, 3, '12345']
+# print(li)
+
+# 查
+li = ['alex', [1, 2, 3, 4, 5], 'beijing', '女神', 'taipei']
+# for i in li[:2]:
+#     print(type(i))
+
+# 公共方法
+# print(len(li))
+# print(li.count('女神1'))
+# print(li.index('女神'))
+
+# 排序
+li = [1, 5, 8, 7, 4, 6]
+# li.sort(reverse=True)
+li.reverse()
 print(li)
