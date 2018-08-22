@@ -47,4 +47,4 @@ a, b = [1, 2], [3, 4]
 # print(a, b)
 # 指定打印某一项
 print(dic1['name'])
-print(dic1.get('cool12','nothisvalue'))
+print(dic1.get('cool12', 'nothisvalue'))
