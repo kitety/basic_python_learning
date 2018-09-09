@@ -35,3 +35,10 @@ for i in dic:
 for i in li:
     del dic[i]
 print(dic)
+
+# 元祖
+tu = (1)
+tu2 = (1, )
+print(tu, type(tu))
+# 只有一个元素,而且不加括号,那么就不会识别为元组长类型
+print(tu2, type(tu2))
