@@ -21,6 +21,7 @@ a, b, c = my_len2()
 print(r)
 print(a, b, c)
 
+
 # 其实元组,列表,字典都有解构
 
 
@@ -64,3 +65,24 @@ def func2(*args, **kwargs):
 
 
 func2(1, 2, 3, 4, 5, 6, 8, a=1, b=2)
+
+
+# 定义函数的参数顺序:位置参数 *args,默认参数,**kwargs
+
+
+# 形参角度,为变量加上*,就是组合所有传来的值
+def func3(*args):
+    print(args)
+
+
+l1 = [1, 2, 3323]
+# 实参角度,为序列加上*,就是将这个序列按照新顺序打散
+func3(*l1)
+
+
+def func4(**kwargs):
+    print(kwargs)
+
+
+d = {'a': 1}
+func4(**d)
