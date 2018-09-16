@@ -15,3 +15,4 @@ def input():
 
 
 input()
+# 类似于js的作用域
