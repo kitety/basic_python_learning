@@ -104,7 +104,8 @@ print(max_func(1, 2))
 # 指定文件修改指定的内容
 def func_replace(filename, old, new):
     with open(
-            filename, encoding='utf-8') as f, open('%s.bak' % filename, 'w', encoding='utf-8') as f2:
+            filename, encoding='utf-8') as f, open(
+                '%s.bak' % filename, 'w', encoding='utf-8') as f2:
         for line in f:
             if old in line:
                 line = line.replace(old, new)
