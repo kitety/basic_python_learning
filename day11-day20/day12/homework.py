@@ -75,6 +75,7 @@ def cache(func):
                 return f.read()
         ret = func(*args, **kwargs)
         with open('web_cache', 'wb') as f:
+            # 写入的类型要一样,b转换一下类型
             f.write(b'*********' + ret)
         return ret
 
