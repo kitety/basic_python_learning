@@ -45,3 +45,9 @@ class A:
 a = A()
 print(isinstance(a, Iterator))
 print(isinstance(a, Iterable))
+
+# 自己的for循环的实现
+# l1 = [1, 2, 3, 4]
+# iterator = l1.__iter__()
+# while 1:
+#     print(iterator.__next__())
