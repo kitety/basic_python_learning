@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0745329-e071-4088-93b3-e50807a4825e" name="Default" comment="新文件的添加">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-day20/day14/advance_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/day11-day20/day14/advance_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day11-day20/day14/average.py" beforeDir="false" afterPath="$PROJECT_DIR$/day11-day20/day14/average.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day11-day20/day14/generator_expression.py" beforeDir="false" afterPath="$PROJECT_DIR$/day11-day20/day14/generator_expression.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +31,9 @@
     <SUITE FILE_PATH="coverage/python$03__1_.coverage" NAME="03 (1) Coverage Results" MODIFIED="1534348972297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/software/install/Anaconda3" />
     <SUITE FILE_PATH="coverage/python$02__1_.coverage" NAME="02 (1) Coverage Results" MODIFIED="1531651177392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/software/install/Anaconda3" />
     <SUITE FILE_PATH="coverage/python$02__3_.coverage" NAME="02 (3) Coverage Results" MODIFIED="1533476985320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/software/install/Anaconda3" />
+    <SUITE FILE_PATH="coverage/basic_python_learning$comprehension.coverage" NAME="comprehension Coverage Results" MODIFIED="1540304344829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/software/install/Anaconda3" />
     <SUITE FILE_PATH="coverage/python$closure.coverage" NAME="closure Coverage Results" MODIFIED="1537276908116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/software/install/Anaconda3" />
+    <SUITE FILE_PATH="coverage/basic_python_learning$generator_expression.coverage" NAME="generator_expression Coverage Results" MODIFIED="1540301927325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/software/install/Anaconda3" />
     <SUITE FILE_PATH="coverage/python$review.coverage" NAME="review Coverage Results" MODIFIED="1540222303236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/software/install/Anaconda3" />
     <SUITE FILE_PATH="coverage/python$homework.coverage" NAME="homework Coverage Results" MODIFIED="1538237946078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/software/install/Anaconda3" />
     <SUITE FILE_PATH="coverage/python$cool.coverage" NAME="cool Coverage Results" MODIFIED="1537003791316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/software/install/Anaconda3" />
@@ -105,17 +108,51 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1491393399">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="420" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="420" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day11-day20/day14/average.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day11-day20/day14/generator_expression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="76" column="10" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
-              <folding>
-                <marker date="1540224601742" expanded="true" signature="995:1010" ph="..." />
-              </folding>
+            <state relative-caret-position="269">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day11-day20/day14/comprehension.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -164,6 +201,8 @@
         <option value="$PROJECT_DIR$/day11-day20/day14/advance_generator.py" />
         <option value="$PROJECT_DIR$/day11-day20/day14/review.py" />
         <option value="$PROJECT_DIR$/day11-day20/day14/average.py" />
+        <option value="$PROJECT_DIR$/day11-day20/day14/generator_expression.py" />
+        <option value="$PROJECT_DIR$/day11-day20/day14/comprehension.py" />
       </list>
     </option>
   </component>
@@ -173,11 +212,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-4" />
-    <option name="y" value="175" />
-    <option name="width" value="2425" />
-    <option name="height" value="1103" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-337" />
+    <option name="y" value="285" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -192,36 +231,19 @@
         <subPane>
           <expand>
             <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="basic_python_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic_python_learning" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="basic_python_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic_python_learning" type="462c0819:PsiDirectoryNode" />
               <item name="day11-day20" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="day11-day20" type="462c0819:PsiDirectoryNode" />
-              <item name="day12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="day11-day20" type="462c0819:PsiDirectoryNode" />
-              <item name="day13" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="basic_python_learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="basic_python_learning" type="462c0819:PsiDirectoryNode" />
               <item name="day11-day20" type="462c0819:PsiDirectoryNode" />
               <item name="day14" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -235,7 +257,7 @@
     <property name="last_opened_file_path" value="D:/software/install/Anaconda3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -254,7 +276,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.average">
+  <component name="RunManager" selected="Python.comprehension">
     <configuration name="01 (1)" type="PythonConfigurationType" factoryName="Python">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -365,6 +387,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="comprehension" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\study\python\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="D:/software/install/Anaconda3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day11-day20/day14/comprehension.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="cool" type="PythonConfigurationType" factoryName="Python">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -409,7 +453,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="iteration" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="generator_expression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -422,29 +466,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day11-day20/day13/iteration.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="listentofile" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="E:\study\python\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="D:/software/install/Anaconda3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day11-day20/day13/listentofile.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day11-day20/day14/generator_expression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -503,19 +525,19 @@
       <item itemvalue="Python.file" />
       <item itemvalue="Python.02 文件操作" />
       <item itemvalue="Python.login" />
-      <item itemvalue="Python.iteration" />
-      <item itemvalue="Python.listentofile" />
       <item itemvalue="Python.average" />
       <item itemvalue="Python.review" />
       <item itemvalue="Python.advance_generator" />
+      <item itemvalue="Python.generator_expression" />
+      <item itemvalue="Python.comprehension" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.comprehension" />
+        <item itemvalue="Python.generator_expression" />
         <item itemvalue="Python.average" />
         <item itemvalue="Python.advance_generator" />
         <item itemvalue="Python.review" />
-        <item itemvalue="Python.listentofile" />
-        <item itemvalue="Python.iteration" />
       </list>
     </recent_temporary>
   </component>
@@ -544,12 +566,12 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23659517" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23994638" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22521247" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3526912" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40797547" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -735,9 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <marker date="1539268567704" expanded="true" signature="19:20" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -745,9 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding>
-            <marker date="1540220283649" expanded="true" signature="16:21" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -765,9 +781,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
           <caret line="76" column="10" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
-          <folding>
-            <marker date="1540224601742" expanded="true" signature="995:1010" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day11-day20/day14/generator_expression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day11-day20/day14/comprehension.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
         </state>
       </provider>
     </entry>
