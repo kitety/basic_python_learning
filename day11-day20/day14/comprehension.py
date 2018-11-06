@@ -5,7 +5,7 @@
 ret = [i for i in range(30) if i % 3 == 0]
 # 得到一个数组
 print(ret)
-ret = [i ** 2 for i in range(30) if i % 3 == 0]
+ret = [i**2 for i in range(30) if i % 3 == 0]
 # 得到一个数组
 print(ret)
 
@@ -29,9 +29,12 @@ mcase = {'a': 10, 'b': 34, 'A': 7, 'Z': 3}
 # for i in mcase.keys():
 #     print(i)
 # 键值对就是键值对,大写小写都模糊处理,直接可以拿到值
-mcase_query = {k.lower(): mcase.get(k.lower(), 0) + mcase.get(k.upper(), 0) for k in mcase}
+mcase_query = {
+    k.lower(): mcase.get(k.lower(), 0) + mcase.get(k.upper(), 0)
+    for k in mcase
+}
 print(mcase_query)
 
 # 集合推导式
-squared = {x ** 2 for x in [1, -1, 2]}
+squared = {x**2 for x in [1, -1, 2]}
 print(squared)
