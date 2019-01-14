@@ -41,7 +41,29 @@ bytes('你好', encoding='GBK').decode('GBK').encode('utf-8') 再编码为utf-8
 
 # bytearray byte类型的数组
 by_arr = bytearray('你好', encoding='utf-8')
+# print(by_arr)
 # 十六进制转换
-print(by_arr)
-# 长的字节可以指定位置替换
-print(by_arr[0])
+# 长的字节可以指定位置替换，省内存空间
+# print(by_arr[0])
+
+# memoryview bytes类型转入memoryview之后就可以进行切片，不会创建新的，但是是字节类型的切片，不占内存，只是字节，转换为字符串会用空间
+l = 'helloworld'
+# print(l[:2]) # 占空间
+
+# ord 字符按照unicode转数字
+# print(ord('a'))
+# print(ord('1'))
+
+# chr 数字按照unicode转字符
+# print(chr(97))
+
+# ascii 是ascii的内容就打印，不是就转换为\u
+# print(ascii('a'))
+# print(ascii('好'))
+
+# repr 用于r%格式化输出  可以包含引号
+name = 'well'
+print('你好%s' % name)
+print('你好%r' % name)
+print(repr(1))
+print(repr('1'))

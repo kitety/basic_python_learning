@@ -23,8 +23,7 @@ if str(money).isdigit() and int(money) > 0:
                 if money >= 0:
                     if li[int(choose) - 1]['name'] in shop_car:
                         shop_car[li[int(choose) - 1][
-                            'name']] = shop_car[li[int(choose) -
-                                                   1]['name']] + int(number)
+                            'name']] = shop_car[li[int(choose) - 1]['name']] + int(number)
                     else:
                         shop_car[li[int(choose) - 1]['name']] = int(number)
                     print('购物车的商品有{},您还有{}元钱'.format(shop_car, money))
