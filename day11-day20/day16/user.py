@@ -14,20 +14,42 @@ def filter_user(condiction):
     condiction = condiction.strip()
     if '>' in condiction:
         # 名目 阈值
+        # age 0
         col, val = condiction.split('>')
         g = get_line('userinfo')
         for line in g:
             if int(line[dic[col]]) > int(val):
-                print(line)
+                yield line
+    if '<' in condiction:
+        # 名目 阈值
+        # age 0
+        col, val = condiction.split('<')
+        g = get_line('userinfo')
+        for line in g:
+            if int(line[dic[col]]) < int(val):
+                yield line
+    if '=' in condiction:
+        # 名目 阈值
+        # age 0
+        col, val = condiction.split('=')
+        g = get_line('userinfo')
+        for line in g:
+            if int(line[dic[col]]) == int(val):
                 yield line
 
-
-def view(view, staff_g):
+# 显示函数
+def views(view, staff_g):
     '''展示符合条件的员工信息'''
+    # 生成器 节省内存
+    if '*' in view:
+        view=dic.keys()
     for staff_info in staff_g:
-        
+        s = []
+        for view_detail in view:
+            s .append(staff_info[dic[view_detail]])
+        print(s)
 
-get_line('userinfo')
+
 
 # 字典定义
 dic = {
@@ -39,11 +61,15 @@ dic = {
 }
 
 # ret=input('>>>')
-ret = 'select name,age where age>0'
+# ret = 'select name,age where age>2'
+ret = 'select * where age>2'
+# 字段 条件
 view, condiction = ret.split('where')
-# view=view.split(' ')[1]
-# print(view, condiction)
+# 替换select
 view = view.replace('select', ' ').strip()
+# 转换为数组
 view_list = view.split(',')
-print(view_list, condiction)
-filter_user(condiction)
+# 获取符合条件的元素 返回生成器
+staff_g = filter_user(condiction)
+# 展示数据
+views(view_list, staff_g)
